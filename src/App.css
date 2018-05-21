@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 10px;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: bold;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.shadow{
+  box-shadow: 2px 2px 2px 2px whitesmoke;
+  padding: 0px;
+}
+
+.divHeight{
+  height: 400px;
+}
+
+.noPadding{
+  padding: 0px;
+}
+
