@@ -18,7 +18,7 @@ class App extends Component {
               <Col xs={12} md={3} className="divHeight">
                 <Settings/>
               </Col>
-              <Col xs={12} md={9} className="noPadding">
+              <Col xs={12} md={9} className="noPadding mapMobileWidth">
                 <MyFancyComponent/>
               </Col>
             </Row>

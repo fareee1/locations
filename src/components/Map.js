@@ -44,7 +44,7 @@ class MyFancyComponent extends Component {
             position={{lat: parseFloat(marker.lat), lng: parseFloat(marker.long)}}
             onClick={()=>this.handleToggleOpen(marker.id)}
           >
-            { this.state.openInfoWindowMarkerId === marker.id && <InfoWindow onCloseClick={()=>this.handleToggleClose()} position={{lat: parseFloat(marker.lat), lng: parseFloat(marker.long)}}>
+            {(this.state.openInfoWindowMarkerId === marker.id && this.props.visible === true) && <InfoWindow onCloseClick={()=>this.handleToggleClose()} position={{lat: parseFloat(marker.lat), lng: parseFloat(marker.long)}}>
                 <div>
                     <h5>{marker.cityname}</h5>
                     <p>{marker.description}</p>

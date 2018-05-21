@@ -37,3 +37,10 @@
   padding: 0px;
 }
 
+@media only screen and (max-width: 992px) {
+  .mapMobileWidth{
+    width: 95%;
+    margin-left: 10px;
+  }
+}
+
